@@ -1,0 +1,11 @@
+framework module CustomLogiOS {
+  umbrella header "CustomLogiOS.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomLogiOS.Swift {
+    header "CustomLogiOS-Swift.h"
+    requires objc
+}
