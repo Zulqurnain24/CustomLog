@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  #spec.license      = "MIT (example)"
+  spec.license      = "Copyleft"
   #spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -75,7 +75,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Zulqurnain24/CustomLog.git", :tag => "0.0.1" }
+  spec.source       = { :git => "https://github.com/Zulqurnain24/CustomLog", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
