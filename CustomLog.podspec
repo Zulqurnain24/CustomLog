@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "CustomLog lets you log in a beautiful way. It can be used for both ios and macOS. There are some really cool new features that will be available soon like record log in a file etc"
 
-  spec.homepage     = "https://github.com/Zulqurnain24/CustomLog/tree/0.1"
+  spec.homepage     = "https://github.com/Zulqurnain24/CustomLog/tree/0.0.1"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  spec.public_header_files = "CustomLogiOS.h", "CustomLogiOS-Swift.h", "CustomLogOSX.h", "CustomLogOSX-Swift.h"
+  #spec.public_header_files = "CustomLogiOS.h", "CustomLogiOS-Swift.h", "CustomLogOSX.h", "CustomLogOSX-Swift.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
