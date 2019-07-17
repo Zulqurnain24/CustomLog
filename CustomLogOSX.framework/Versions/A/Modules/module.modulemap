@@ -1,0 +1,11 @@
+framework module CustomLogOSX {
+  umbrella header "CustomLogOSX.h"
+
+  export *
+  module * { export * }
+}
+
+module CustomLogOSX.Swift {
+    header "CustomLogOSX-Swift.h"
+    requires objc
+}

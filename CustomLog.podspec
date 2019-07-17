@@ -24,7 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = "CustomLog lets you log in a beautiful way"
+  spec.description  = "CustomLog lets you log in a beautiful way. It can be used for both ios and macOS. There are some really cool new features that will be available soon like record log in a file etc"
 
   spec.homepage     = "https://github.com/Zulqurnain24/CustomLog/tree/0.1"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -63,8 +63,8 @@ Pod::Spec.new do |spec|
    spec.platform     = :ios, "10.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "5.0"
-  # spec.osx.deployment_target = "10.7"
+  spec.ios.deployment_target = "5.0"
+  spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
@@ -75,7 +75,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/Zulqurnain24/CustomLog.git", :tag => "0.1" }
+  spec.source       = { :git => "https://github.com/Zulqurnain24/CustomLog.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |spec|
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
-  # spec.public_header_files = "Classes/**/*.h"
+  spec.public_header_files = "CustomLogiOS.h", "CustomLogiOS-Swift.h", "CustomLogOSX.h", "CustomLogOSX-Swift.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -113,7 +113,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.framework  = "SomeFramework"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "CustomLogOSX", "CustomLogiOS"
 
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
