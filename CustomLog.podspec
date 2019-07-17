@@ -15,9 +15,9 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "CustomLog"
+  spec.name         = "CustomLogiOS"
   spec.version      = "0.0.1"
-  spec.summary      = "CustomLog is a framework that lets you log in a beautiful way."
+  spec.summary      = "CustomLogiOS is a framework that lets you log in a beautiful way."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
